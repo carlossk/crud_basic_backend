@@ -6,6 +6,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+## Run Project
+Connect to database on .env file
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=YOUR_DATABASE
+DB_USERNAME=YOUR_USER
+DB_PASSWORD=YOUR_PASSWORD
+```
+create database with the next commnad.
+```
+php artisan migrate
+```
+Run project
+```
+php artisan serve
+```
 
 ## About Laravel
 
